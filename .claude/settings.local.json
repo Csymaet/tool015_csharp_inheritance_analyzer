@@ -4,11 +4,7 @@
       "Bash(dotnet run:*)",
       "Bash(dotnet build:*)",
       "Bash(node:*)",
-      "Bash(npm install:*)",
-      "Bash(start \"\" \"C:\\Users\\14915\\AppData\\Local\\Temp\\csharp-inheritance-1757161870035.html\")",
-      "Bash(start \"\" \"C:\\Users\\14915\\AppData\\Local\\Temp\\csharp-inheritance-1757162098763.html\")",
-      "Bash(start \"\" \"C:\\Users\\14915\\AppData\\Local\\Temp\\csharp-inheritance-1757162439733.html\")",
-      "Bash(start \"\" \"C:\\Users\\14915\\AppData\\Local\\Temp\\csharp-inheritance-1757162759394.html\")"
+      "Bash(npm install:*)"
     ],
     "deny": [],
     "ask": []
