@@ -1,0 +1,27 @@
+{
+  "name": "@promptx/csharp-inheritance-analyzer",
+  "version": "3.0.0",
+  "description": "C# 继承关系分析工具 - 基于Roslyn编译器，精确分析Unity项目继承关系",
+  "keywords": ["csharp", "unity", "roslyn", "inheritance", "analysis", "promptx"],
+  "author": "鲁班 <luban@promptx.dev>",
+  "license": "MIT",
+  "main": "tools/csharp-inheritance-analyzer.tool.js",
+  "files": [
+    "tools/",
+    "docs/",
+    "analyze.js"
+  ],
+  "promptx": {
+    "type": "tool",
+    "category": "code-analysis",
+    "tags": ["csharp", "unity", "roslyn", "inheritance", "analysis"],
+    "manual": "docs/csharp-inheritance-analyzer.manual.md",
+    "dependencies": {
+      "runtime": ["dotnet"],
+      "system": ["windows", "macos", "linux"]
+    }
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
