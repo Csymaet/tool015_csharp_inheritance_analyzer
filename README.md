@@ -17,6 +17,7 @@
 csharp-inheritance-analyzer/
 ├── analyze.js                      # CLI命令行接口
 ├── package.json                    # NPM包配置
+├── tool015_csharp_inheritance_analyzer.sln  # Visual Studio解决方案
 ├── tools/                          # 核心工具代码
 │   ├── csharp-inheritance-analyzer.tool.js  # PromptX工具主文件
 │   └── roslyn-analyzer/            # C# Roslyn分析引擎
@@ -30,8 +31,7 @@ csharp-inheritance-analyzer/
 │   ├── csharp-inheritance-analyzer.manual.md  # 工具使用手册
 │   └── INTEGRATION.md              # PromptX集成指南
 └── examples/                       # 示例和测试
-    ├── test-unity-project/         # Unity测试项目
-    └── trymcp.sln                  # Visual Studio解决方案
+    └── test-unity-project/         # Unity测试项目
 ```
 
 ## 🚀 快速开始
@@ -63,19 +63,7 @@ node analyze.js --help
 
 ### PromptX集成使用
 
-```javascript
-// 先学习工具手册
-await learn('@manual://csharp-inheritance-analyzer');
-
-// 然后使用工具
-await toolx({
-  tool_resource: '@tool://csharp-inheritance-analyzer',
-  parameters: {
-    targetClass: 'PlayerController',
-    projectPath: 'C:\\MyUnityProject\\Assets'
-  }
-});
-```
+> 暂时放弃
 
 ## 📊 输出示例
 
